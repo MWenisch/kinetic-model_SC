@@ -32,7 +32,7 @@ model = KineticModel(
         """),
     kin_sys=equations,
     ks_guesses=[0.02, 0.01, 0.01, 0.01, 1.2],
-    ks_constant=[1.8e-4, 1.8e-5],
+    ks_constant=[7.5e-5, 2.9e-4],
     conc0_guesses=[5, 5, 20],
     conc0_constant=[0, 0, 0],
     k_var_names=["k1_1","k1_2","K1","K2","k2"],
